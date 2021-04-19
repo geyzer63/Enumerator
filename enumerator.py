@@ -2,6 +2,7 @@ import collections
 import re
 from operator import itemgetter
 
+
 def enum_factory_currying(value_converter=None, 
                           field_converter=str.upper, 
                           ordered=False):
@@ -95,6 +96,7 @@ def enum_factory_currying(value_converter=None,
 # Non-currying mapper - for convenience
 enum_factory = enum_factory_currying()
 
+
 # Incremental integer mapper - for numeric sequence creation
 def sequence_factory_currying(value_converter=lambda x: x, field_converter=str.upper):
     """
@@ -123,6 +125,7 @@ def sequence_factory_currying(value_converter=lambda x: x, field_converter=str.u
 
 # Non-currying mapper - for convenience
 sequence_factory = sequence_factory_currying()
+
 
 import configparser
 def load_ini(source):
@@ -160,6 +163,7 @@ def load_ini(source):
     return config_loader(**{name: dict(section) 
                             for name, section in config_obj.items()})
 
+  
 import json
 def load_json(source, field_converter=str.upper):
     """
