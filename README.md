@@ -25,3 +25,6 @@ Allows simple creation of single-tiered containers and multi-tiered JSON-like ob
 >> Q.ARE.YOU
 'sure'
 ```
+
+## Python Version
+>= 3.6
