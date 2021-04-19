@@ -27,4 +27,4 @@ Allows simple creation of single-tiered containers and multi-tiered JSON-like ob
 ```
 
 ## Python Version
->= 3.6
+\>= 3.6
