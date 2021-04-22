@@ -2,7 +2,7 @@
 
 Simple expandable alternative to Python standard _enum_
 
-Allows simple creation of single-tiered containers and multi-tiered JSON-like objects.
+Allows easy creation of single-tiered containers and multi-tiered JSON-like objects.
 
 ## Examples
 
